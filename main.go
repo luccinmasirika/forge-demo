@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const version = "v1"
+const version = "v2"
 
 func main() {
 	started := time.Now().UTC().Format(time.RFC3339)
