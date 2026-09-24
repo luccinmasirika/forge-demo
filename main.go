@@ -11,7 +11,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-const version = "v3"
+const version = "v4"
 
 func main() {
 	started := time.Now().UTC().Format(time.RFC3339)
